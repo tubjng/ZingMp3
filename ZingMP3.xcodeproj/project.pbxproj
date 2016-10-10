@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F2A871D38DF970090FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2A861D38DF970090FEC3 /* AppDelegate.swift */; };
+		046F2A891D38DF970090FEC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2A881D38DF970090FEC3 /* ViewController.swift */; };
+		046F2A8C1D38DF970090FEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F2A8A1D38DF970090FEC3 /* Main.storyboard */; };
+		046F2A8E1D38DF970090FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F2A8D1D38DF970090FEC3 /* Assets.xcassets */; };
+		046F2A911D38DF970090FEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F2A8F1D38DF970090FEC3 /* LaunchScreen.storyboard */; };
+		046F2A9C1D38DF970090FEC3 /* ZingMP3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2A9B1D38DF970090FEC3 /* ZingMP3Tests.swift */; };
+		046F2AA71D38DF970090FEC3 /* ZingMP3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F2AA61D38DF970090FEC3 /* ZingMP3UITests.swift */; };
+		046F2AB51D38DFFC0090FEC3 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046F2AB41D38DFFC0090FEC3 /* zing-mp3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046F2A981D38DF970090FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F2A7B1D38DF970090FEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F2A821D38DF970090FEC3;
+			remoteInfo = ZingMP3;
+		};
+		046F2AA31D38DF970090FEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F2A7B1D38DF970090FEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F2A821D38DF970090FEC3;
+			remoteInfo = ZingMP3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F2A831D38DF970090FEC3 /* ZingMP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZingMP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F2A861D38DF970090FEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046F2A881D38DF970090FEC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046F2A8B1D38DF970090FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F2A8D1D38DF970090FEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F2A901D38DF970090FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F2A921D38DF970090FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F2A971D38DF970090FEC3 /* ZingMP3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingMP3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F2A9B1D38DF970090FEC3 /* ZingMP3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMP3Tests.swift; sourceTree = "<group>"; };
+		046F2A9D1D38DF970090FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F2AA21D38DF970090FEC3 /* ZingMP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingMP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F2AA61D38DF970090FEC3 /* ZingMP3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMP3UITests.swift; sourceTree = "<group>"; };
+		046F2AA81D38DF970090FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F2AB41D38DFFC0090FEC3 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F2A801D38DF970090FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2A941D38DF970090FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2A9F1D38DF970090FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F2A7A1D38DF970090FEC3 = {
+			isa = PBXGroup;
+			children = (
+				046F2A851D38DF970090FEC3 /* ZingMP3 */,
+				046F2A9A1D38DF970090FEC3 /* ZingMP3Tests */,
+				046F2AA51D38DF970090FEC3 /* ZingMP3UITests */,
+				046F2A841D38DF970090FEC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046F2A841D38DF970090FEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F2A831D38DF970090FEC3 /* ZingMP3.app */,
+				046F2A971D38DF970090FEC3 /* ZingMP3Tests.xctest */,
+				046F2AA21D38DF970090FEC3 /* ZingMP3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F2A851D38DF970090FEC3 /* ZingMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				046F2A861D38DF970090FEC3 /* AppDelegate.swift */,
+				046F2A881D38DF970090FEC3 /* ViewController.swift */,
+				046F2A8A1D38DF970090FEC3 /* Main.storyboard */,
+				046F2A8D1D38DF970090FEC3 /* Assets.xcassets */,
+				046F2A8F1D38DF970090FEC3 /* LaunchScreen.storyboard */,
+				046F2A921D38DF970090FEC3 /* Info.plist */,
+				046F2AB41D38DFFC0090FEC3 /* zing-mp3.jpg */,
+			);
+			path = ZingMP3;
+			sourceTree = "<group>";
+		};
+		046F2A9A1D38DF970090FEC3 /* ZingMP3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				046F2A9B1D38DF970090FEC3 /* ZingMP3Tests.swift */,
+				046F2A9D1D38DF970090FEC3 /* Info.plist */,
+			);
+			path = ZingMP3Tests;
+			sourceTree = "<group>";
+		};
+		046F2AA51D38DF970090FEC3 /* ZingMP3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				046F2AA61D38DF970090FEC3 /* ZingMP3UITests.swift */,
+				046F2AA81D38DF970090FEC3 /* Info.plist */,
+			);
+			path = ZingMP3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F2A821D38DF970090FEC3 /* ZingMP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F2AAB1D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3" */;
+			buildPhases = (
+				046F2A7F1D38DF970090FEC3 /* Sources */,
+				046F2A801D38DF970090FEC3 /* Frameworks */,
+				046F2A811D38DF970090FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZingMP3;
+			productName = ZingMP3;
+			productReference = 046F2A831D38DF970090FEC3 /* ZingMP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046F2A961D38DF970090FEC3 /* ZingMP3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F2AAE1D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3Tests" */;
+			buildPhases = (
+				046F2A931D38DF970090FEC3 /* Sources */,
+				046F2A941D38DF970090FEC3 /* Frameworks */,
+				046F2A951D38DF970090FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F2A991D38DF970090FEC3 /* PBXTargetDependency */,
+			);
+			name = ZingMP3Tests;
+			productName = ZingMP3Tests;
+			productReference = 046F2A971D38DF970090FEC3 /* ZingMP3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046F2AA11D38DF970090FEC3 /* ZingMP3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F2AB11D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3UITests" */;
+			buildPhases = (
+				046F2A9E1D38DF970090FEC3 /* Sources */,
+				046F2A9F1D38DF970090FEC3 /* Frameworks */,
+				046F2AA01D38DF970090FEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F2AA41D38DF970090FEC3 /* PBXTargetDependency */,
+			);
+			name = ZingMP3UITests;
+			productName = ZingMP3UITests;
+			productReference = 046F2AA21D38DF970090FEC3 /* ZingMP3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F2A7B1D38DF970090FEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tubjng;
+				TargetAttributes = {
+					046F2A821D38DF970090FEC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43478CRMC7;
+						LastSwiftMigration = 0800;
+					};
+					046F2A961D38DF970090FEC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43478CRMC7;
+						LastSwiftMigration = 0800;
+						TestTargetID = 046F2A821D38DF970090FEC3;
+					};
+					046F2AA11D38DF970090FEC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43478CRMC7;
+						LastSwiftMigration = 0800;
+						TestTargetID = 046F2A821D38DF970090FEC3;
+					};
+				};
+			};
+			buildConfigurationList = 046F2A7E1D38DF970090FEC3 /* Build configuration list for PBXProject "ZingMP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F2A7A1D38DF970090FEC3;
+			productRefGroup = 046F2A841D38DF970090FEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F2A821D38DF970090FEC3 /* ZingMP3 */,
+				046F2A961D38DF970090FEC3 /* ZingMP3Tests */,
+				046F2AA11D38DF970090FEC3 /* ZingMP3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F2A811D38DF970090FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F2AB51D38DFFC0090FEC3 /* zing-mp3.jpg in Resources */,
+				046F2A911D38DF970090FEC3 /* LaunchScreen.storyboard in Resources */,
+				046F2A8E1D38DF970090FEC3 /* Assets.xcassets in Resources */,
+				046F2A8C1D38DF970090FEC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2A951D38DF970090FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2AA01D38DF970090FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F2A7F1D38DF970090FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F2A891D38DF970090FEC3 /* ViewController.swift in Sources */,
+				046F2A871D38DF970090FEC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2A931D38DF970090FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F2A9C1D38DF970090FEC3 /* ZingMP3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F2A9E1D38DF970090FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F2AA71D38DF970090FEC3 /* ZingMP3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046F2A991D38DF970090FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F2A821D38DF970090FEC3 /* ZingMP3 */;
+			targetProxy = 046F2A981D38DF970090FEC3 /* PBXContainerItemProxy */;
+		};
+		046F2AA41D38DF970090FEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F2A821D38DF970090FEC3 /* ZingMP3 */;
+			targetProxy = 046F2AA31D38DF970090FEC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046F2A8A1D38DF970090FEC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F2A8B1D38DF970090FEC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F2A8F1D38DF970090FEC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F2A901D38DF970090FEC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F2AA91D38DF970090FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046F2AAA1D38DF970090FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F2AAC1D38DF970090FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZingMP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		046F2AAD1D38DF970090FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZingMP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		046F2AAF1D38DF970090FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMP3.app/ZingMP3";
+			};
+			name = Debug;
+		};
+		046F2AB01D38DF970090FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMP3.app/ZingMP3";
+			};
+			name = Release;
+		};
+		046F2AB21D38DF970090FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZingMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZingMP3;
+			};
+			name = Debug;
+		};
+		046F2AB31D38DF970090FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZingMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyentubjng.ZingMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZingMP3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F2A7E1D38DF970090FEC3 /* Build configuration list for PBXProject "ZingMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F2AA91D38DF970090FEC3 /* Debug */,
+				046F2AAA1D38DF970090FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F2AAB1D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F2AAC1D38DF970090FEC3 /* Debug */,
+				046F2AAD1D38DF970090FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F2AAE1D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F2AAF1D38DF970090FEC3 /* Debug */,
+				046F2AB01D38DF970090FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F2AB11D38DF970090FEC3 /* Build configuration list for PBXNativeTarget "ZingMP3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F2AB21D38DF970090FEC3 /* Debug */,
+				046F2AB31D38DF970090FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046F2A7B1D38DF970090FEC3 /* Project object */;
+}
